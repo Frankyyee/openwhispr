@@ -662,12 +662,14 @@ export default function StudyView() {
           </summary>
           <div className="mt-2 space-y-2">
             <input
+              dir="auto"
               value={pasteName}
               onChange={(e) => setPasteName(e.target.value)}
               placeholder={t("study.materials.pasteName")}
               className="h-8 w-full rounded-md border border-border bg-transparent px-2"
             />
             <textarea
+              dir="auto"
               value={pasteText}
               onChange={(e) => setPasteText(e.target.value)}
               placeholder={t("study.materials.pastePlaceholder")}

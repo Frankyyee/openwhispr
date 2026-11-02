@@ -98,6 +98,8 @@ const EXPECTED_NATIVE_FIELD_DIRECTIONS = {
   "src/components/MemberPickList.tsx": ["auto"],
   "src/components/ReferralDashboard.tsx": ["ltr"],
   "src/components/SettingsPage.tsx": ["inherit"],
+  // Study: hidden file picker, pasted notes name and text (any script), read-aloud checkbox.
+  "src/components/StudyView.tsx": ["inherit", "auto", "auto", "inherit"],
   "src/components/chat/ApprovalCard.tsx": ["auto", "auto"],
   "src/components/chat/ChatInput.tsx": ["auto"],
   // To, Cc, Subject, Body: people's names and prose in any script.
