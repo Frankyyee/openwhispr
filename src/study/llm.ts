@@ -33,3 +33,13 @@ export function isStudyLLMConfigured(): boolean {
     selectIsCloudNoteFormattingMode(settings) || !!selectResolvedNoteFormatting(settings).model
   );
 }
+
+/** What Study will call, shown on the setup screen so a wrong scope is obvious. */
+export function describeStudyLLM(): { mode: string; provider: string; model: string } {
+  const settings = getSettings();
+  const nf = selectResolvedNoteFormatting(settings);
+  if (selectIsCloudNoteFormattingMode(settings)) {
+    return { mode: "openwhispr", provider: "OpenWhispr Cloud", model: nf.model };
+  }
+  return { mode: nf.mode, provider: nf.mode === "local" ? "local" : nf.provider, model: nf.model };
+}

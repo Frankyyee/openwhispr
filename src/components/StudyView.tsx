@@ -6,7 +6,7 @@ import { Brain, Check, FileText, Loader2, Mic, Square, Trash2, X } from "./icons
 import { buildCorpus, type SourceDoc } from "../study/chunker";
 import { StudySession } from "../study/session";
 import { narrate, type StudyReport } from "../study/report";
-import { createStudyLLM, isStudyLLMConfigured } from "../study/llm";
+import { createStudyLLM, describeStudyLLM, isStudyLLMConfigured } from "../study/llm";
 import { readStudyFile, SUPPORTED_EXTENSIONS } from "../study/importFiles";
 import { speak, stopSpeaking, guessLang } from "../study/speech";
 import { useStudyListener } from "../study/useStudyListener";
@@ -757,6 +757,15 @@ export default function StudyView() {
           />
           {t("study.speakAloud")}
         </label>
+        <p className="text-xs text-muted-foreground">
+          {(() => {
+            const llm = describeStudyLLM();
+            return t("study.tutorModel", {
+              provider: llm.provider || "—",
+              model: llm.model || "—",
+            });
+          })()}
+        </p>
         <Button onClick={startSession} disabled={!docs.length}>
           <Mic size={14} /> {t("study.start")}
         </Button>

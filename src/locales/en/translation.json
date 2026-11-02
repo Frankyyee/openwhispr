@@ -5637,6 +5637,7 @@
       "transcription": "Transcription failed. Check your speech-to-text settings.",
       "unsupported": "Couldn't read: {{files}}. Use TXT, Markdown or DOCX (export PDFs to text first).",
       "storageFull": "Your materials are too large to save. Remove some files."
-    }
+    },
+    "tutorModel": "Tutor model: {{provider}} · {{model}} (change it in Settings → Language Models → Note Formatting)"
   }
 }

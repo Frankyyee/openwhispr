@@ -5655,6 +5655,7 @@
       "transcription": "Trascrizione non riuscita. Controlla le impostazioni di riconoscimento vocale.",
       "unsupported": "Impossibile leggere: {{files}}. Usa TXT, Markdown o DOCX (converti prima i PDF in testo).",
       "storageFull": "I materiali sono troppo grandi per essere salvati. Rimuovi qualche file."
-    }
+    },
+    "tutorModel": "Modello tutor: {{provider}} · {{model}} (si cambia in Impostazioni → Modelli linguistici → Formattazione note)"
   }
 }
