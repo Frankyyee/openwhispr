@@ -3915,7 +3915,8 @@
     "accountMenu": "Account: {{name}}",
     "chat": "Chat",
     "collapse": "Comprimi barra laterale",
-    "expand": "Espandi barra laterale"
+    "expand": "Espandi barra laterale",
+    "study": "Studio"
   },
   "chat": {
     "newChat": "Nuova chat",
@@ -5561,6 +5562,99 @@
       "bootstrapUnreadable": "OpenWhispr non riesce a leggere il file di bootstrap. Chiedi all'IT di renderlo leggibile dal tuo account.",
       "bootstrapMismatch": "Il file di bootstrap non corrisponde al tuo account, a questo workspace o alle credenziali configurate.",
       "testLinkOtherWorkspace": "Questo link di test è per un altro workspace. Passa a quel workspace e apri di nuovo il link."
+    }
+  },
+  "study": {
+    "title": "Studio",
+    "subtitle": "Carica i tuoi appunti e ripeti ad alta voce. OpenWhispr controlla quello che dici confrontandolo con i tuoi materiali.",
+    "dismiss": "Chiudi",
+    "start": "Inizia sessione",
+    "speakAloud": "Leggi ad alta voce domande e correzioni",
+    "materials": {
+      "title": "I tuoi materiali",
+      "coverage": "{{pct}}% del programma coperto · {{topics}} argomenti",
+      "topicCount_one": "{{count}} argomento",
+      "topicCount_other": "{{count}} argomenti",
+      "remove": "Rimuovi",
+      "upload": "Aggiungi file",
+      "formats": "TXT, Markdown o DOCX. I titoli diventano argomenti.",
+      "resetProgress": "Azzera progressi",
+      "pasteToggle": "Oppure incolla testo",
+      "pasteName": "Nome (es. Capitolo 3)",
+      "pastePlaceholder": "Incolla qui i tuoi appunti. Le righe che iniziano con # diventano argomenti.",
+      "pasteAdd": "Aggiungi"
+    },
+    "mode": {
+      "label": "Modalità",
+      "free": "Ripetizione libera",
+      "freeHint": "Ripeti a ruota libera quello che vuoi: ti ascolta e controlla.",
+      "quiz": "Interrogazione guidata",
+      "quizHint": "Ti fa domande finché non hai coperto tutto il programma."
+    },
+    "feedback": {
+      "label": "Correzioni",
+      "immediate": "Fermami quando sbaglio",
+      "immediateHint": "Ti interrompe dicendoti cosa hai sbagliato e come migliorare.",
+      "deferred": "Dimmelo alla fine",
+      "deferredHint": "Ti lascia finire e poi elenca tutti gli errori nel report."
+    },
+    "lang": {
+      "spoken": "Parlerò in",
+      "questions": "Domande in",
+      "auto": "Automatico"
+    },
+    "run": {
+      "finish": "Termina e mostra report",
+      "listening": "In ascolto…",
+      "thinking": "Sto controllando…",
+      "paused": "In pausa",
+      "stopped": "Ti fermo un attimo",
+      "continue": "Ok, continuo",
+      "freeHint": "Inizia a parlare. A ogni pausa quello che hai detto viene controllato."
+    },
+    "quiz": {
+      "preparing": "Preparo la prossima domanda…",
+      "allCovered": "Hai coperto tutto il programma. Termina la sessione per vedere il report.",
+      "doneAnswering": "Ho finito",
+      "repeat": "Ripeti domanda",
+      "skip": "Salta",
+      "evaluating": "Controllo la risposta…",
+      "retry": "Riprova",
+      "next": "Prossima domanda",
+      "correctSpoken": "Corretto."
+    },
+    "verdict": {
+      "correct": "Corretto",
+      "incomplete": "Incompleto",
+      "wrong": "Sbagliato",
+      "offtopic": "Non nei materiali"
+    },
+    "finding": {
+      "issue": "Cosa non va",
+      "correction": "Versione corretta"
+    },
+    "report": {
+      "title": "Report della sessione",
+      "back": "Nuova sessione",
+      "coverage": "Programma coperto",
+      "summary": "Commento del tutor",
+      "writing": "Scrivo il commento…",
+      "noSummary": "Non è stato possibile scrivere il commento. I numeri qui sotto restano corretti.",
+      "strengths": "Punti di forza",
+      "toImprove": "Da migliorare",
+      "none": "Ancora niente.",
+      "topicStat": "{{pct}}% · {{errors}} errori",
+      "mistakes_one": "{{count}} errore o lacuna",
+      "mistakes_other": "{{count}} errori o lacune",
+      "topics": "Copertura per argomento",
+      "history": "Sessioni precedenti"
+    },
+    "errors": {
+      "noMaterials": "Aggiungi prima qualche materiale.",
+      "noModel": "Scegli un modello per la formattazione delle note in Impostazioni → Modelli AI per usare Studio.",
+      "transcription": "Trascrizione non riuscita. Controlla le impostazioni di riconoscimento vocale.",
+      "unsupported": "Impossibile leggere: {{files}}. Usa TXT, Markdown o DOCX (converti prima i PDF in testo).",
+      "storageFull": "I materiali sono troppo grandi per essere salvati. Rimuovi qualche file."
     }
   }
 }

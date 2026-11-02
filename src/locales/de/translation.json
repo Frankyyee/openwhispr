@@ -3056,7 +3056,8 @@
     "accountMenu": "Konto: {{name}}",
     "chat": "Chat",
     "collapse": "Seitenleiste einklappen",
-    "expand": "Seitenleiste ausklappen"
+    "expand": "Seitenleiste ausklappen",
+    "study": "Study"
   },
   "workspaces": {
     "switcher": {
@@ -5543,6 +5544,99 @@
       "bootstrapUnreadable": "OpenWhispr kann die Bootstrap-Datei nicht lesen. Bitten Sie die IT, sie für Ihr Konto lesbar zu machen.",
       "bootstrapMismatch": "Die Bootstrap-Datei passt nicht zu Ihrem Konto, diesem Workspace oder seinen konfigurierten Zugangsdaten.",
       "testLinkOtherWorkspace": "Dieser Testlink gilt für einen anderen Workspace. Wechseln Sie zu diesem Workspace und öffnen Sie den Link erneut."
+    }
+  },
+  "study": {
+    "title": "Study",
+    "subtitle": "Load your notes, then revise out loud. OpenWhispr checks what you say against your materials.",
+    "dismiss": "Dismiss",
+    "start": "Start session",
+    "speakAloud": "Read questions and corrections aloud",
+    "materials": {
+      "title": "Your materials",
+      "coverage": "{{pct}}% of the syllabus covered · {{topics}} topics",
+      "topicCount_one": "{{count}} topic",
+      "topicCount_other": "{{count}} topics",
+      "remove": "Remove",
+      "upload": "Add files",
+      "formats": "TXT, Markdown or DOCX. Headings become topics.",
+      "resetProgress": "Reset progress",
+      "pasteToggle": "Or paste text",
+      "pasteName": "Name (e.g. Chapter 3)",
+      "pastePlaceholder": "Paste your notes here. Lines starting with # become topics.",
+      "pasteAdd": "Add"
+    },
+    "mode": {
+      "label": "Mode",
+      "free": "Free recall",
+      "freeHint": "Talk through whatever you want; it listens and checks.",
+      "quiz": "Guided questions",
+      "quizHint": "It asks you questions until the whole syllabus is covered."
+    },
+    "feedback": {
+      "label": "Corrections",
+      "immediate": "Stop me when I'm wrong",
+      "immediateHint": "Interrupts you with what was wrong and how to fix it.",
+      "deferred": "Tell me at the end",
+      "deferredHint": "Lets you finish, then lists every mistake in the report."
+    },
+    "lang": {
+      "spoken": "I'll speak in",
+      "questions": "Questions in",
+      "auto": "Auto"
+    },
+    "run": {
+      "finish": "Finish and see report",
+      "listening": "Listening…",
+      "thinking": "Checking…",
+      "paused": "Paused",
+      "stopped": "Let me stop you here",
+      "continue": "Got it, continue",
+      "freeHint": "Start talking. Each pause sends what you said for checking."
+    },
+    "quiz": {
+      "preparing": "Preparing the next question…",
+      "allCovered": "You've covered the whole syllabus. Finish the session to see your report.",
+      "doneAnswering": "I'm done",
+      "repeat": "Repeat question",
+      "skip": "Skip",
+      "evaluating": "Checking your answer…",
+      "retry": "Try again",
+      "next": "Next question",
+      "correctSpoken": "Correct."
+    },
+    "verdict": {
+      "correct": "Correct",
+      "incomplete": "Incomplete",
+      "wrong": "Wrong",
+      "offtopic": "Not in materials"
+    },
+    "finding": {
+      "issue": "What's off",
+      "correction": "Correct version"
+    },
+    "report": {
+      "title": "Session report",
+      "back": "New session",
+      "coverage": "Syllabus covered",
+      "summary": "Tutor's summary",
+      "writing": "Writing summary…",
+      "noSummary": "The summary could not be written. The numbers below are still accurate.",
+      "strengths": "Strengths",
+      "toImprove": "To improve",
+      "none": "Nothing yet.",
+      "topicStat": "{{pct}}% · {{errors}} errors",
+      "mistakes_one": "{{count}} mistake or gap",
+      "mistakes_other": "{{count}} mistakes or gaps",
+      "topics": "Coverage by topic",
+      "history": "Previous sessions"
+    },
+    "errors": {
+      "noMaterials": "Add some materials first.",
+      "noModel": "Choose a Note Formatting model in Settings → AI Models to use Study.",
+      "transcription": "Transcription failed. Check your speech-to-text settings.",
+      "unsupported": "Couldn't read: {{files}}. Use TXT, Markdown or DOCX (export PDFs to text first).",
+      "storageFull": "Your materials are too large to save. Remove some files."
     }
   }
 }
