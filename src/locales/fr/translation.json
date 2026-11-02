@@ -5651,7 +5651,7 @@
     },
     "errors": {
       "noMaterials": "Add some materials first.",
-      "noModel": "Choose a Note Formatting model in Settings → AI Models to use Study.",
+      "noModel": "Choose a model in Settings → Language Models → Note Formatting to use Study.",
       "transcription": "Transcription failed. Check your speech-to-text settings.",
       "unsupported": "Couldn't read: {{files}}. Use TXT, Markdown or DOCX (export PDFs to text first).",
       "storageFull": "Your materials are too large to save. Remove some files."

@@ -8,7 +8,7 @@ import { buildNoteFormattingOverrides } from "../helpers/noteFormattingOverrides
 import type { LLM } from "./types";
 
 /**
- * Study mode runs on the "Note formatting" model from Settings → AI Models, so any
+ * Study mode runs on the "Note formatting" model from Settings → Language Models, so any
  * provider OpenWhispr supports (OpenWhispr Cloud, Claude, OpenAI, Gemini, Groq,
  * local GGUF, self-hosted) can judge answers and ask questions.
  */

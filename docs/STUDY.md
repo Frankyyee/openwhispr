@@ -26,7 +26,7 @@ La copertura e gli argomenti deboli vengono salvati tra una sessione e l'altra, 
 
 - **Riconoscimento vocale**: usa quello configurato in Impostazioni → Speech-to-Text: Whisper o Parakeet in locale, OpenWhispr Cloud o BYOK.
   Per parlare sia in italiano sia in inglese scegli un modello multilingue (es. Whisper `turbo`/`large`, Parakeet v3) e lascia la lingua su *Automatico*, oppure fissala per la sessione.
-- **LLM** (giudica le risposte, fa le domande, scrive il report): usa il modello di *Formattazione note* in Impostazioni → Modelli AI.
+- **LLM** (giudica le risposte, fa le domande, scrive il report): usa il modello di *Formattazione note* in Impostazioni → Modelli linguistici.
   Va bene qualsiasi provider supportato: Claude, OpenAI, Gemini, Groq, modelli locali GGUF o self-hosted.
   Con i modelli locali piccoli i giudizi sono meno affidabili.
 

@@ -5651,7 +5651,7 @@
     },
     "errors": {
       "noMaterials": "Aggiungi prima qualche materiale.",
-      "noModel": "Scegli un modello per la formattazione delle note in Impostazioni → Modelli AI per usare Studio.",
+      "noModel": "Scegli un modello in Impostazioni → Modelli linguistici → Formattazione note per usare Studio.",
       "transcription": "Trascrizione non riuscita. Controlla le impostazioni di riconoscimento vocale.",
       "unsupported": "Impossibile leggere: {{files}}. Usa TXT, Markdown o DOCX (converti prima i PDF in testo).",
       "storageFull": "I materiali sono troppo grandi per essere salvati. Rimuovi qualche file."
